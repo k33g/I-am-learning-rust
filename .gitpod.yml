@@ -7,7 +7,7 @@ tasks:
 
     init: |
       echo "🚀 initialize"
-      #npm install
+      source "/workspace/.cargo/env" && \
 
 ports:
   - port: 8080
