@@ -1,13 +1,27 @@
-image: k33g/i-am-learning-rust:0.0.0
+image: k33g/i-am-learning-rust:0.0.1
 
 tasks:
   - name: initialize
     before: |
       echo "🚀 before"
+      # ------------------------------------
+      # wasmer
+      # ------------------------------------
+      source /home/gitpod/.wasmer/wasmer.sh
+      wasmer --version
+      # ------------------------------------
+      # wasmtime
+      # ------------------------------------
+      wasmtime --version
+      # ------------------------------------
+      # wasmedge dependencies
+      # ------------------------------------
+      source /home/gitpod/.wasmedge/env
+      wasmedge --version
 
     init: |
       echo "🚀 initialize"
-      source "/workspace/.cargo/env" && \
+      source /home/gitpod/.cargo/env
 
 ports:
   - port: 8080
