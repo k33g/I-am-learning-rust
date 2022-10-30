@@ -16,7 +16,7 @@ case $1 in
     ;;
 
   memo)
-    message=":memo: Add or update documentation. $2"
+    message="Add or update documentation. $2"
     ;;
 
   *)
