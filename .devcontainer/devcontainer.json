@@ -1,5 +1,5 @@
 {
-  "image": "k33g/bots-garden-rust-training:0.0.0",
+  "image": "k33g/i-am-learning-rust:0.0.0",
   "forwardPorts": [8080,3000,5000],
   "postCreateCommand": "npm install",
   "customizations": {

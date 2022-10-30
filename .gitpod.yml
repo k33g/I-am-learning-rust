@@ -1,4 +1,4 @@
-image: k33g/I-am-learning-rust:0.0.0
+image: k33g/i-am-learning-rust:0.0.0
 
 tasks:
   - name: initialize
