@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-
 fetch("https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json")
 .then((response) => response.json())
 .then((data) => {
@@ -34,11 +33,8 @@ esac
 git add .; git commit -m ":$1: $message"; git push
   `
 
-
-
   try {
     fs.writeFileSync('./git.sh', script);
-    // file written successfully
   } catch (err) {
     console.error(err);
   }
