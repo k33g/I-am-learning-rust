@@ -1,5 +1,21 @@
 #!/bin/bash
+
+# https://gitmoji.dev/
 message="updated"
+
+if [[ "$1" == "art" ]]; then
+  message=":art: Improve structure / format of the code. $2"
+fi
+
+if [[ "$1" == "zap" ]]; then
+  message=":zap: Improve performance. $2"
+fi
+
+if [[ "$1" == "memo" ]]; then
+  message=":memo: Add or update documentation. $2"
+fi
+
+
 
 if [[ "$1" == "wip" ]]; then
   message="🚧 WIP $2"
