@@ -1,0 +1,26 @@
+image: k33g/I-am-learning-rust:0.0.0
+
+tasks:
+  - name: initialize
+    before: |
+      echo "🚀 before"
+
+    init: |
+      echo "🚀 initialize"
+      #npm install
+
+ports:
+  - port: 8080
+    visibility: public
+  - port: 3000
+    visibility: public
+  - port: 5000
+    visibility: public
+
+vscode:
+  extensions:
+    - pkief.material-icon-theme
+    - rust-lang.rust
+    - bungcip.better-toml
+    - aaron-bond.better-comments
+
