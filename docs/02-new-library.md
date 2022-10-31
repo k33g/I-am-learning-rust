@@ -19,6 +19,8 @@ To use an API token, run `cargo login` on the command line and paste the key whe
 
 ```bash
 cargo publish --dry-run
+cargo package --list --allow-dirty
+
 ```
 
 ## How to use it locally and remotely
