@@ -20,9 +20,21 @@ To use an API token, run `cargo login` on the command line and paste the key whe
 ```bash
 cargo publish --dry-run
 cargo package --list --allow-dirty
-
+# you need to commit everything
+cargo publish
 ```
+
+## How to use it
+
+> https://crates.io/crates/my_tools
+
+```toml
+[dependencies]
+my_tools = "0.1.0"
+```
+
 
 ## How to use it locally and remotely
 
-
+https://stackoverflow.com/questions/33025887/how-to-use-a-local-unpublished-crate
+https://doc.rust-lang.org/cargo/reference/overriding-dependencies.html

@@ -1,4 +1,4 @@
-mod all_tools {
+pub mod all_tools {
 
     pub mod small {
         pub fn add(left: usize, right: usize) -> usize {
