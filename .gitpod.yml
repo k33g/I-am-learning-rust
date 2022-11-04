@@ -36,5 +36,4 @@ vscode:
     - pkief.material-icon-theme
     - bungcip.better-toml
     - aaron-bond.better-comments
-    - rust-lang.rust-analyzer
     
