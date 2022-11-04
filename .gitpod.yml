@@ -36,4 +36,5 @@ vscode:
     - pkief.material-icon-theme
     - bungcip.better-toml
     - aaron-bond.better-comments
-    - matklad.rust-analyzer
+    - https://github.com/rust-lang/rust-analyzer/releases/download/2022-10-31/rust-analyzer-linux-x64.vsix
+
